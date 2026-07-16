@@ -4,8 +4,7 @@ from streamlit_agraph import agraph, Node, Edge, Config
 
 # "wide" layout allows the app to stretch edge-to-edge
 st.set_page_config(layout="wide") 
-st.title("Clean Hierarchical Knowledge Graph")
-st.markdown("Hover over nodes for details. Relationship properties are displayed on the connections.")
+st.title("Data science PEP")
 
 try:
     df = pd.read_csv("graph.csv")
